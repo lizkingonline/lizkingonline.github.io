@@ -59,6 +59,7 @@ select {
 }
 button {
 	font-size: 1rem;
+	font-weight: bold;
 	margin: 2rem 0;
 	background-color: #bb342F;
 	color: white;
@@ -69,6 +70,7 @@ button {
 button:hover {
 	background-color: aqua;
 	color: #bb342F;
+	font-weight: bold;
 }
 input:not([type="radio"]):not([type="checkbox"]), textarea, select {
 	display: block;
