@@ -1,13 +1,13 @@
 body {
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-  color: #2A383F;
-  width: 90rem;
+  color: black;
+  width: 80%;
   margin: auto;
 }
 blockquote {
   text-align: right;
   font-size: 1.5rem;
-  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   border-top: dotted 2px #685144;
   border-bottom: dotted 2px #685144;
 }
@@ -16,7 +16,7 @@ cite {
   font-family: 'Times New Roman', Times, serif;
 }
 .main {
-  font-size: 2rem;
+  font-size: 1.5rem;
   width: 50rem;
   margin: 9rem 1rem;
 }
@@ -24,9 +24,10 @@ h1 {
   text-align: center;
   color: #EAEDF8;
   font-size: 3rem;
+  font-family: "Aboreto", system-ui, 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   background-color: #4A6C8E;
   padding: 1rem;
-  margin: 0;
+  margin: 0 0 2rem 0;
 }
 ol li {
   text-align: center;
@@ -38,7 +39,7 @@ ol li {
 
 }
 em {
-  color: #685144;
+  color: #4A6C8E;
   font-weight: bold;
 }
 footer {
@@ -47,6 +48,7 @@ footer {
   color: #EAEDF8;
   margin: 0;
   padding: .5rem;
+  text-align: center;
 }
 .citefooter {
   font-size: .75rem;
@@ -58,20 +60,31 @@ a:link {
   color: #EAEDF8;  
 }
 a:visited {
-  color: #685144;
+  color: #EAEDF8;
+  font-weight: bold;
 }
 .floatright {
   float: right;
   margin: .5rem 1rem;
   border-radius: 10%;
 }
+.floatleft {
+  float: left;
+  margin: .5rem 1rem;
+  border-radius: 10%;
+}
 .bq1 {
-  float:right;
-  width: 50rem;
-  margin: 0rem 2rem 3rem 2rem;
+  float: right;
+  width: 60rem;
+  margin: 1.5rem 2rem 3rem 2rem;
 }
 .bq2 {
-  float:left;
-  width: 60rem;
-  margin: 1rem 2rem 0.15rem 2rem;
+  float: left;
+  width: 80rem;
+  margin: 1.5rem 2rem 1.5rem 2rem;
+}
+article:after {
+  content: "";
+  display: table;
+  clear: both;
 }
