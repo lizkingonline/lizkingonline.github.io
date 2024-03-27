@@ -14,7 +14,7 @@
   --mono: "Courier Prime", monospace;
   --pop: "Poppins", sans-serif;
 }
-/* border box model: https://css-tricks.com/box-sizing/ */
+/* border box model */
 html {
   box-sizing: border-box;
 }
@@ -101,7 +101,7 @@ img {
   width: 400px;
   text-align: center;
   margin: 0 auto;
-  padding: 3rem 0;
+  padding: 4rem 0;
 }
 
 #contact p:last-child {
@@ -207,18 +207,6 @@ nav [class*="fa-"]:hover {
   padding: 1rem;
 }
 
-@media (min-width: 850px) {
-  nav {
-    max-width: 1200px;
-    margin: 0 auto;
-  }
-  nav li:first-child {
-    flex-basis: auto;
-    text-align: left;
-    margin-right: auto;
-  }
-}
-
 /* footer section */
 footer {
   text-align: center;
@@ -234,6 +222,8 @@ footer ul {
   gap: 3rem;
   font-size: 3rem;
 }
+
+/* media queries */
 @media (min-width: 800px) {
   article {
     display: grid;
@@ -270,4 +260,15 @@ footer ul {
   }
 }
 
+@media (min-width: 850px) {
+  nav {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  nav li:first-child {
+    flex-basis: auto;
+    text-align: left;
+    margin-right: auto;
+  }
+}
 
